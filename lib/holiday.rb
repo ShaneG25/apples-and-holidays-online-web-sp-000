@@ -84,7 +84,7 @@ def all_supplies_in_holidays(holiday_hash)
       holly = holiday.to_s 
       array = holly.split("_")
       new_array = array.collect { |x| x.capitalize}
-      
+      holly = new_array.join
 end
 
 def all_holidays_with_bbq(holiday_hash)
