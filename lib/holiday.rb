@@ -81,7 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
     period.capitalize!
     puts "#{period}:"
     holidays,each do |holiday, items|
-      
+      holly = holiday.to_s
 end
 
 def all_holidays_with_bbq(holiday_hash)
