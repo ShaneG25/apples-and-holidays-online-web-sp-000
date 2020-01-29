@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays,each do |holiday, items|
       holly = holiday.to_s 
       array = holly.split("_")
-      
+      new_array = array.collect 
 end
 
 def all_holidays_with_bbq(holiday_hash)
