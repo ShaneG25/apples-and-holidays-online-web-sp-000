@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
     period = season.to_s 
     period.capitalize!
     puts "#{period}:"
-    holidays,each do |holiday, items|
+    holidays.each do |holiday, items|
       holly = holiday.to_s 
       array = holly.split("_")
       new_array = array.collect { |x| x.capitalize}
